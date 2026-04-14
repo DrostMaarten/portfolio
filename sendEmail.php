@@ -1,8 +1,11 @@
 <?php
 
-$name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+$name = $_POST['name'] ?? '';
+$email = $_POST['email'] ?? '';
+$message = $_POST['message'] ?? '';
 
 require "vendor/autoload.php";
 
@@ -23,7 +26,9 @@ $mail->Port = 587;
 $mail->Username = "MS_nUqy4P@test-vz9dlemw66p4kj50.mlsender.net";
 $mail->Password = "mssp.hdZQfdo.3z0vklo2ypx47qrx.XiSBYEp";
 
-$mail->setFrom($email, $name);
+$mail->setFrom("drostmaarten05@gmail.com", "Portfolio website");
+$mail->addReplyTo($email, $name);
+
 $mail->addAddress("drostmaarten05@gmail.com", "Maarten");
 
 $mail->Subject = "Mail van je portfolio";
@@ -31,4 +36,4 @@ $mail->Body = $message;
 
 $mail->send();
 
-echo 'Message has been sent';
+echo "Message has been sent";
