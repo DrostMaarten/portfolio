@@ -40,15 +40,15 @@
     <section class="contact-form-section">
         <h2>Stuur mij een bericht</h2>
 
-        <form method="post" action="/portfolio/contact.php" class="contact-form">
+        <form method="post" action="/portfolio/sendEmail.php" class="contact-form">
             <label>Naam</label>
-            <input type="text" name="naam" required>
+            <input type="text" name="name" required>
 
             <label>Email</label>
             <input type="email" name="email" required>
 
             <label>Bericht</label>
-            <textarea name="bericht" rows="5" required></textarea>
+            <textarea name="message" rows="5" required></textarea>
 
             <button type="submit" class="button">Versturen</button>
         </form>
