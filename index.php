@@ -12,7 +12,7 @@
             webapplicaties en simulatiemodellen.
         </p>
 
-        <a class="button" href="/projects.php">Bekijk mijn projecten!</a>
+        <a class="button" href="/portfolio/projects.php">Bekijk mijn projecten!</a>
     </section>
 
     <!-- SKILLS SECTION -->
@@ -39,7 +39,7 @@
                 met optimalisatie via een genetic algorithm en routeberekening via API.
             </p>
 
-            <a href="/projects/project-tsp.php">Lees meer →</a>
+            <a href="/portfolio/projects/project-tsp.php">Lees meer →</a>
         </div>
 
         <div class="project-card">
@@ -61,7 +61,7 @@
             Neem gerust contact met mij op via de contactpagina of LinkedIn!
         </p>
 
-        <a class="button" href="/contact.php">Contact opnemen</a>
+        <a class="button" href="/portfolio/contact.php">Contact opnemen</a>
     </section>
 </main>
 

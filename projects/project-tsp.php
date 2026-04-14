@@ -79,7 +79,7 @@
     <!-- TERUGKNOP -->
     <section class="project-back">
 
-        <a href="projecten.php">← Terug naar projecten</a>
+        <a href="../projects.php">← Terug naar projecten</a>
 
     </section>
 </main>

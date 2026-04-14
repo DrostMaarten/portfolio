@@ -84,7 +84,7 @@
             Bekijk mijn projecten of neem contact met mij op.
         </p>
 
-        <a class="button" href="projects.php">Bekijk projecten</a>
+        <a class="button" href="/portfolio/projects.php">Bekijk projecten</a>
     </section>
 </main>
 

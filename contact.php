@@ -40,7 +40,7 @@
     <section class="contact-form-section">
         <h2>Stuur mij een bericht</h2>
 
-        <form method="post" action="contact.php" class="contact-form">
+        <form method="post" action="/portfolio/contact.php" class="contact-form">
             <label>Naam</label>
             <input type="text" name="naam" required>
 
