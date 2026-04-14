@@ -1,0 +1,375 @@
+/* ============================= */
+/* GLOBAL RESET + BASISSTIJL */
+/* ============================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1f2933;
+    line-height: 1.6;
+}
+
+/* ============================= */
+/* LAYOUT */
+/* ============================= */
+
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* ============================= */
+/* NAVBAR */
+/* ============================= */
+
+nav {
+    background: white;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 18px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    text-decoration: none;
+    color: #374151;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+nav a.active {
+    color: #2563eb;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    bottom: -6px;
+    left: 0;
+    background: #2563eb;
+    transition: 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/* ============================= */
+/* HERO */
+/* ============================= */
+
+.hero {
+    text-align: center;
+    padding: 100px 0 60px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #6b7280;
+    max-width: 650px;
+    margin: auto;
+}
+
+/* ============================= */
+/* BUTTONS */
+/* ============================= */
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 28px;
+    background: #2563eb;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+
+.button:hover {
+    background: #1e40af;
+}
+
+.button-outline {
+    border: 2px solid #2563eb;
+    color: #2563eb;
+    background: transparent;
+    margin-left: 10px;
+}
+
+.button-outline:hover {
+    background: #2563eb;
+    color: white;
+}
+
+/* ============================= */
+/* SECTIONS */
+/* ============================= */
+
+section {
+    margin-top: 80px;
+}
+
+/* ============================= */
+/* SKILLS */
+/* ============================= */
+
+.skills ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.skills li {
+    padding: 8px 0;
+    font-size: 17px;
+}
+
+/* ============================= */
+/* PROJECT CARDS */
+/* ============================= */
+
+.project-card {
+    background: white;
+    border-radius: 12px;
+    padding: 28px;
+    margin-bottom: 30px;
+    border: 1px solid #e5e7eb;
+    transition: all 0.25s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.08);
+}
+
+.project-card h2 {
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #6b7280;
+}
+
+/* ============================= */
+/* TECH STACK LABELS */
+/* ============================= */
+
+.tech-stack {
+    margin-top: 15px;
+}
+
+.tech-stack span {
+    display: inline-block;
+    background: #eef2ff;
+    color: #3730a3;
+    padding: 6px 14px;
+    margin-right: 8px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* ============================= */
+/* PROJECT LINKS */
+/* ============================= */
+
+.project-links {
+    margin-top: 18px;
+}
+
+.project-links a {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}
+
+/* ============================= */
+/* ABOUT PAGE GRID */
+/* ============================= */
+
+.skills-grid {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.skills-grid div {
+    flex: 1;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+/* ============================= */
+/* PROJECT DETAIL PAGE */
+/* ============================= */
+
+.project-header {
+    margin-top: 60px;
+}
+
+.project-subtitle {
+    margin-top: 10px;
+    color: #6b7280;
+    font-size: 18px;
+}
+
+.project-section {
+    margin-top: 60px;
+}
+
+.project-image {
+    margin-top: 20px;
+    border-radius: 12px;
+    max-width: 750px;
+    width: 100%;
+}
+
+/* CONTACT HEADER */
+
+.contact-header {
+    margin-top: 60px;
+    max-width: 650px;
+}
+
+/* CONTACT INFO CARDS */
+
+.contact-info {
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.contact-card {
+    flex: 1;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.contact-card a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+/* FORM */
+
+.contact-form-section {
+    margin-top: 70px;
+}
+
+.contact-form {
+    max-width: 600px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+footer {
+    background: white;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 120px;
+    padding: 40px 0;
+}
+
+.footer-container {
+    width: 85%;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-links {
+    margin-top: 12px;
+}
+
+.footer-links a {
+    color: #6b7280;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 15px;
+}
+
+.footer-links a:hover {
+    color: #2563eb;
+}
+
+/* ============================= */
+/* RESPONSIVE DESIGN */
+/* ============================= */
+
+@media (max-width: 900px) {
+
+    .skills-grid {
+        flex-direction: column;
+    }
+
+    nav {
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+}
