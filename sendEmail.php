@@ -27,3 +27,5 @@ $mail->Subject = "Mail van je portfolio";
 $mail->Body = $message;
 
 $mail->send();
+
+echo 'Message has been sent';
