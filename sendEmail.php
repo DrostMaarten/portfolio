@@ -11,8 +11,11 @@ use PHPMailer\PHPMailer\SMTP;
 
 $mail = new PHPMailer(true);
 
+$mail->SMTPDebug = SMTP::DEBUG_SERVER;
+
 $mail->isSMTP();
 $mail->SMTPAuth = true;
+
 $mail->Host = "smtp.mailersend.net";
 $mail->SMTPSecure = PHPmailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
