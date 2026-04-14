@@ -17,7 +17,7 @@ $mail->isSMTP();
 $mail->SMTPAuth = true;
 
 $mail->Host = "smtp.mailersend.net";
-$mail->SMTPSecure = PHPmailer::ENCRYPTION_STARTTLS;
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
 $mail->Username = "MS_nUqy4P@test-vz9dlemw66p4kj50.mlsender.net";
