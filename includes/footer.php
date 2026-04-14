@@ -6,7 +6,7 @@
         <div class="footer-links">
             <a href="https://github.com/DrostMaarten" target="_blank">GitHub</a>
             <a href="https://linkedin.com/in/maarten-drost-9215901b8" target="_blank">LinkedIn</a>
-            <a href="/contact.php">Contact</a>
+            <a href="/portfolio/contact.php">Contact</a>
         </div>
 
     </div>
