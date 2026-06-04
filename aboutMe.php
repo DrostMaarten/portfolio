@@ -69,11 +69,16 @@
         <h2>Persoonlijk</h2>
         <p>
             Ik leer graag door te bouwen. Ik vind het leuk om complexe problemen
-            op te splitsen en stap voor stap op te lossen.
+            op te splitsen en stap voor stap op te lossen. Ik ben heel leergierig
+            en wil graag alles weten. Ik hou er van om te kunnen leren en dit gelijk
+            toe te passen in de praktijk.
         </p>
 
         <p>
-            Naast programmeren ben ik bezig met sport en werk ik toe naar het lopen van een halve marathon.
+            Naast het programmeren doe ik natuurlijk ook andere dingen. Waaronder sport,
+            zelf loop ik hard en doe ik graag mee aan hardloopwedstrijden. Verder
+            ben ik dol op voetbal en F1. Ik game graag en ga graag met vrienden
+            het terras op of een feestje opzoeken.
         </p>
     </section>
 
