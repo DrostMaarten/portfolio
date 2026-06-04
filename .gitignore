@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies (optioneel: weglaten als je vendor wél meelevert)
+# /vendor/
